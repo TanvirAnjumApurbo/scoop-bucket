@@ -1,0 +1,19 @@
+{
+  "version": "0.0.0",
+  "description": "Profile where your AI coding agent's tokens actually went — locally, offline.",
+  "homepage": "https://github.com/TanvirAnjumApurbo/skiagram",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/TanvirAnjumApurbo/skiagram/releases/download/v0.0.0/skiagram-x86_64-pc-windows-msvc.zip",
+      "hash": "",
+      "bin": "skiagram.exe"
+    }
+  },
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": { "url": "https://github.com/TanvirAnjumApurbo/skiagram/releases/download/v$version/skiagram-x86_64-pc-windows-msvc.zip" }
+    }
+  }
+}
